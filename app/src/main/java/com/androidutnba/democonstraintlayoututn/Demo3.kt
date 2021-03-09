@@ -7,7 +7,7 @@ import android.view.animation.OvershootInterpolator
 import android.widget.Button
 import androidx.constraintlayout.widget.ConstraintLayout
 
-class Demo_3 : AppCompatActivity() {
+class Demo3 : AppCompatActivity() {
     var button: Button? = null
     var show = false
     var constraintLayout: ConstraintLayout? = null
@@ -18,7 +18,7 @@ class Demo_3 : AppCompatActivity() {
         button = findViewById(R.id.button2)
         button?.setOnClickListener {
             show = if (show) {
-                revertAnimation(
+                showAnimation(
                     constraintLayout!!,
                     R.layout.demo3_layout,
                     OvershootInterpolator()

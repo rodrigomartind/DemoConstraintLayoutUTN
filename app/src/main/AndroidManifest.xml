@@ -9,16 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DemoConstraintLayoutUTN">
-        <activity android:name=".Demo4">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Demo_3">
-        </activity>
-        <activity android:name=".Demo2"></activity>
+        <activity android:name=".Demo4"/>
+        <activity android:name=".Demo3"/>
+        <activity android:name=".Demo2" />
         <activity android:name=".Demo1" />
     </application>
 

@@ -20,7 +20,7 @@ class Demo2 : AppCompatActivity() {
         button = findViewById(R.id.button)
         button?.setOnClickListener {
             show = if (show) {
-                revertAnimation(
+                showAnimation(
                     constraintLayout!!,
                     R.layout.demo2_layout,
                     BounceInterpolator()

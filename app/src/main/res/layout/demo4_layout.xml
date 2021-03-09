@@ -50,11 +50,11 @@
         android:text="Button" />
 
     <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/flow"
         android:layout_width="0dp"
         android:layout_height="200dp"
         android:layout_marginTop="93dp"
         android:orientation="horizontal"
-        android:id="@+id/flow"
         app:constraint_referenced_ids="buttonOne, buttonTwo, buttonThree, buttonFour, buttonFive, buttonSix, buttonSeven"
         app:flow_maxElementsWrap="2"
         app:flow_wrapMode="aligned"

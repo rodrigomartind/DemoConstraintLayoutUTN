@@ -18,7 +18,7 @@ class Demo4 : AppCompatActivity() {
         flow = findViewById(R.id.flow)
         flow?.setOnClickListener {
             show = if (show) {
-                revertAnimation(
+                showAnimation(
                     constraintLayout!!,
                     R.layout.demo4_layout,
                     AnticipateInterpolator()
